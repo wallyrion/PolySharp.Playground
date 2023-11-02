@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace Polysharp.Playground.CSharp9.CompilerOnly
+namespace Polysharp.Playground.CSharp8.CompilerOnly
 {
 	public class Tests
 	{

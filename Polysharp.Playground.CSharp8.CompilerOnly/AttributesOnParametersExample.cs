@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Polysharp.Playground.CSharp9.CompilerOnly
+namespace Polysharp.Playground.CSharp8.CompilerOnly
 {
 	public class AttributesOnParametersExample
 	{

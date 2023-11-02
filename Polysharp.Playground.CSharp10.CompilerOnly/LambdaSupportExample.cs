@@ -17,9 +17,6 @@ public class LambdaSupportExample
 	
 	public void MethodThatTakesAction(Action action) => action();
 
-	// "Natural type" inference
-
-	
 	[AttributeUsage(AttributeTargets.All)]
 	public class MyCustomAttribute : Attribute
 	{

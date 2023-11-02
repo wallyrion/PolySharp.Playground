@@ -1,4 +1,4 @@
-﻿namespace Polysharp.Playground.CSharp9.RequirePolyfills
+﻿namespace Polysharp.Playground.CSharp9.CompilerPolyfills
 {
 	public class InitOnlySettersExample
 	{

@@ -1,4 +1,4 @@
-﻿namespace Polysharp.Playground.CSharp12.CompilerOnly;
+﻿namespace Polysharp.Playground.CSharp12.RequireRuntime;
 
 public class InlineArraysExample
 {

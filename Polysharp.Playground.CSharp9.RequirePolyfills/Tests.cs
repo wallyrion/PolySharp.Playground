@@ -1,9 +1,7 @@
 using FluentAssertions;
-using Polysharp.Playground.CSharp9.CompilerPolyfills;
-using Polysharp.Playground.CSharp9.RequirePolyfills;
 using Xunit;
 
-namespace Polysharp.Playground.CSharp9.RequireRuntime
+namespace Polysharp.Playground.CSharp9.CompilerPolyfills
 {
 	public class Tests
 	{

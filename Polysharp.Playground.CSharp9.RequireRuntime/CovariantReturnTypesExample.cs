@@ -1,4 +1,4 @@
-namespace Polysharp.Playground.CSharp9.CompilerOnly
+namespace Polysharp.Playground.CSharp9.RequireRuntime
 {
 	public class CovariantReturnTypesExample
 	{

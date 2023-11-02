@@ -1,11 +1,14 @@
-public class TargetTypedExample
+namespace Polysharp.Playground.CSharp8.CompilerOnly
 {
-	public int ShowExample(int? maybeNumber = null, int number = 25)
+	public class TargetTypedExample
 	{
-		int actualNumber = maybeNumber ?? number;
+		public int ShowExample(int? maybeNumber = null, int number = 25)
+		{
+			int actualNumber = maybeNumber ?? number;
         
-		System.Console.WriteLine($"The number is: {actualNumber}");
+			System.Console.WriteLine($"The number is: {actualNumber}");
 
-		return actualNumber;
+			return actualNumber;
+		}
 	}
 }
