@@ -24,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polysharp.Playground.CSharp10.RequirePolyfills", "Polysharp.Playground.CSharp10.RequirePolyfills\Polysharp.Playground.CSharp10.RequirePolyfills.csproj", "{C0EF9906-5B3E-4B1F-94B7-E80435BCC827}"

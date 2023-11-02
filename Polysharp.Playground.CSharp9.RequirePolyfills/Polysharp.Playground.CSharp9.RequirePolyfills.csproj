@@ -4,14 +4,14 @@
         <TargetFrameworks>net8.0;net472</TargetFrameworks>
         <Nullable>enable</Nullable>
         <LangVersion>9.0</LangVersion>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
 
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="PolySharp" Version="1.13.2">
+        <PackageReference Include="PolySharp">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
     </ItemGroup>
-
 </Project>

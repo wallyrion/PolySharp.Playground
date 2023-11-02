@@ -13,8 +13,8 @@
         </PackageReference>
     </ItemGroup>
 
-
     <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
