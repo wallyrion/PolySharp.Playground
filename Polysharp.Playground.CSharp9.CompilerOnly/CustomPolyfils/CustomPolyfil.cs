@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 
-namespace Polysharp.Playground.CSharp9.CompilerOnly.CustomPolyfils
+// ReSharper disable once CheckNamespace
+namespace System.Runtime.CompilerServices
 {
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	internal static class IsExternalInit { }
