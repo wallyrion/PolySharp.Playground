@@ -5,10 +5,19 @@ box, require additional polyfills, or require a runtime.
 
 ## C# 8.0 Features
 
-todo
+| Feature                                                                                                          | Out of the Box | Require polyfills | Requires Runtime |
+|:-----------------------------------------------------------------------------------------------------------------|:---------------|:------------------|:-----------------|
+| [Non-nullable references](./Polysharp.Playground.CSharp8.CompilerOnly/NullableExample.cs)                        | ✔️             | ️❌               | ❌                |
+| [Switch Expressions](./Polysharp.Playground.CSharp8.CompilerOnly/SwitchExpressionsExample.cs)                    | ✔️             | ❌                | ❌                |
+| [Static local functions](./Polysharp.Playground.CSharp8.CompilerOnly/StaticLocalFunctionExample.cs)              | ✔️             | ❌               | ❌                |
+| [Asynchronous streams](./Polysharp.Playground.CSharp8.RequireRuntime/AsyncStreamsExample.cs)                     | ❌             | ❌                | ✔️                |
+| [Indices and Range](./Polysharp.Playground.CSharp8.RequirePolyfills/IndicesAndRangesExample.cs)                  | ❌          | ✔️               | ❌                |
+| [Default interface methods](./Polysharp.Playground.CSharp8.RequireRuntime/DefaultInterfaceMethodsExample.cs)     | ❌              | ❌                 | ✔️               |
+| [Using declarations](./Polysharp.Playground.CSharp8.CompilerOnly/UsingDeclarationExample.cs)                     | ✔️             | ️❌               | ❌                |
+| [Null-coalescing assignment](./Polysharp.Playground.CSharp8.CompilerOnly/NullCoalescingAssignmentExample.cs)     | ✔️             | ️❌               | ❌                |
+| [Read-only members](./Polysharp.Playground.CSharp8.CompilerOnly/ReadonlyMembersExample.cs)                     |  ✔️            | ❌                | ❌         |
 - - - 
 
-## C# 9.0 Features
 ## C# 9.0 Features
 
 | Feature                                                                                                                                             | Out of the Box | Require polyfills | Requires Runtime |
@@ -22,7 +31,6 @@ todo
 | [Covariant return types](./Polysharp.Playground.CSharp9.RequireRuntime/CovariantReturnTypesExample.cs)                                              | ❌              | ❌                 | ✔️               |
 | [Pattern matching enhancements](./Polysharp.Playground.CSharp9.CompilerOnly/PatternMatchingEnhancements.cs)                                         | ✔️             | ❌                 | ❌                |
 | [Lambda discard parameters](./Polysharp.Playground.CSharp9.CompilerOnly/LambdaDiscardParametersExample.cs)                                          | ✔️             | ❌                 | ❌                |
-| [Default interface methods](./Polysharp.Playground.CSharp9.RequireRuntime/DefaultInterfaceMethodsExample.cs)                                        | ❌              | ❌                 | ✔️               |
 | [Target-typed conditional expressions](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedConditionalExpressionsExample.cs)                     | ✔️             | ❌                 | ❌                |
 | [Target-typed new](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedNewExpressionExample.cs)                                                  | ✔️             | ❌                 | ❌                |
 | [ExtensionGetEnumeratorSupportForeachLoopsExample](./Polysharp.Playground.CSharp9.CompilerOnly/ExtensionGetEnumeratorSupportForeachLoopsExample.cs) | ✔️             | ❌                 | ❌                |

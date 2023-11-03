@@ -1,9 +1,11 @@
+using System.Runtime.CompilerServices;
 using FluentAssertions;
+using Polysharp.Playground.CSharp9.CompilerOnly.CustomPolyfils;
 using Xunit;
 
 namespace Polysharp.Playground.CSharp9.CompilerOnly
 {
-	public class UnitTest1
+	public class Tests
 	{
 		[Fact]
 		public void PatternMatchingEnhancements_IsLetter()
@@ -67,6 +69,14 @@ namespace Polysharp.Playground.CSharp9.CompilerOnly
 			equal.Should().BeTrue();
 
 			record1.Should().Be(record2);
+		}
+
+		[Fact]
+		public void CustomPolyfilsExampleTest()
+		{
+			var example = new CustomPolyfilsExample();
+
+			example.Test().Should().NotBeEmpty();
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Polysharp.Playground.CSharp9.RequireRuntime
+namespace Polysharp.Playground.CSharp8.RequireRuntime
 {
 	internal interface IDefaultInterfaceMethodsExample
 	{
