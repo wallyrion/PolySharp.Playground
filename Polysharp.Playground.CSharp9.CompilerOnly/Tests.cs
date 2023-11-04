@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using FluentAssertions;
 using Polysharp.Playground.CSharp9.CompilerOnly.CustomPolyfils;
 using Xunit;

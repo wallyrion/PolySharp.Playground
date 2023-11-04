@@ -1,5 +1,4 @@
 using FluentAssertions;
-using Xunit;
 
 namespace Polysharp.Playground.CSharp10.CompilerOnly;
 

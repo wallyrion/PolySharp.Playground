@@ -1,9 +1,7 @@
-﻿
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Polysharp.Playground.CSharp12.RequireRuntime
+namespace Polysharp.Playground.CSharp8.RequireRuntime
 {
 	public class AsyncStreamExample
 	{

@@ -1,5 +1,4 @@
 using System;
-using System.IO;
 
 namespace Polysharp.Playground.CSharp8.CompilerOnly
 {

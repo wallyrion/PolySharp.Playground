@@ -15,15 +15,5 @@
 
 			return a;
 		}
-
-		/*public string Splited(string str)
-		{
-			if (str.Split() is not [var first, var second])
-			{
-				throw new ArgumentException("Str is not in correct format");
-			}
-
-			return first + second;
-		}*/
 	}
 }
