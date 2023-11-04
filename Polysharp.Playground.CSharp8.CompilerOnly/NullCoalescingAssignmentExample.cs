@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Polysharp.Playground.CSharp8.CompilerOnly
+﻿namespace Polysharp.Playground.CSharp8.CompilerOnly
 {
 	public class NullCoalescingAssignmentExample
 	{

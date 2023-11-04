@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Polysharp.Playground.CSharp9.CompilerOnly
+﻿namespace Polysharp.Playground.CSharp9.CompilerOnly
 {
 	public class TargetTypedConditionalExpressionsExample
 	{
