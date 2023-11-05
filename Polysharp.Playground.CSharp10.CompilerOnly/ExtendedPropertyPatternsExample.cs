@@ -4,14 +4,14 @@ public class ExtendedPropertyPatternsExample
 {
 	public class Person
 	{
-		public string Name { get; set; }
-		public Address Address { get; set; }
+		public string Name { get; set; } = null!;
+		public Address Address { get; set; } = null!;
 	}
 
 	public class Address
 	{
-		public string Street { get; set; }
-		public string City { get; set; }
+		public string Street { get; set; } = null!;
+		public string City { get; set; } = null!;
 	}
 
 	public bool Test()
