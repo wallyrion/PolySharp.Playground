@@ -26,11 +26,6 @@ public class ExtendedPropertyPatternsExample
 			}
 		};
 
-		if (john is { Name: "John Doe", Address.City: "Anytown" })
-		{
-			return true;
-		}
-
-		return false;
+		return john is { Name: "John Doe", Address.City: "Anytown" };
 	}
 }

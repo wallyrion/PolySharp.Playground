@@ -1,4 +1,6 @@
 ﻿using System.Text;
+// ReSharper disable UnusedType.Global
+// ReSharper disable UnusedMember.Global
 
 namespace Polysharp.Playground.CSharp10.CompilerOnly;
 
