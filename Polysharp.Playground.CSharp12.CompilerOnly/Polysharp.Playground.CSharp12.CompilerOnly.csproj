@@ -8,12 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFramework' ">
-    </ItemGroup>
-    
-    <ItemGroup>
         <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" />
         <PackageReference Include="Microsoft.VisualStudio.TestPlatform" />
         <PackageReference Include="Microsoft.TestPlatform.ObjectModel" />
+    </ItemGroup>
+    
+    <ItemGroup>
+
         <PackageReference Include="xunit.runner.visualstudio">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
