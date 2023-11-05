@@ -1,4 +1,4 @@
-﻿namespace Polysharp.Playground.CSharp11.RequirePolyfills;
+﻿namespace Polysharp.Playground.CSharp11.CompilerOnly;
 
 public class FileLocalTypesExample
 {

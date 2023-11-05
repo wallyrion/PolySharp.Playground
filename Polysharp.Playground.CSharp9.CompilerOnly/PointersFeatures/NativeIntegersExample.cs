@@ -4,8 +4,8 @@
 	{
 		class Example
 		{
-			nint i = 5;
-			nuint u = 6u;
+			private nint _i = 5;
+			private nuint _u = 6u;
 		}
 	}
 }

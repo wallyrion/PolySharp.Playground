@@ -1,4 +1,4 @@
-﻿namespace Polysharp.Playground.CSharp11.RequireRuntime;
+﻿namespace Polysharp.Playground.CSharp11.RequirePolyfills;
 
 public class ListPatternsExample
 {
