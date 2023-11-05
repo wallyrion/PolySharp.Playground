@@ -4,47 +4,46 @@ This table lists the features introduced in C# versions 8 - 12 and indicates whe
 box, require additional polyfills, or require a runtime.
 
 ## C# 8.0 Features
-
 | Feature                                                                                                        | Out of the Box | Require polyfills | Requires Runtime |
-|:---------------------------------------------------------------------------------------------------------------|:---------------|:------------------|:-----------------|
-| [Non-nullable references](./Polysharp.Playground.CSharp8.CompilerOnly/NullableExample.cs)                      | ✔️             | ️❌                | ❌                |
-| [Switch Expressions](./Polysharp.Playground.CSharp8.CompilerOnly/SwitchExpressionsExample.cs)                  | ✔️             | ❌                 | ❌                |
-| [Property pattern matching](./Polysharp.Playground.CSharp8.CompilerOnly/PropertyPatternMatchingExample.cs)     | ✔️             | ❌                 | ❌                |
-| [Positional pattern matching](./Polysharp.Playground.CSharp8.CompilerOnly/PositionalPatternMatchingExample.cs) | ✔️             | ❌                 | ❌                |
-| [Static local functions](./Polysharp.Playground.CSharp8.CompilerOnly/StaticLocalFunctionExample.cs)            | ✔️             | ❌                 | ❌                |
-| [Using declarations](./Polysharp.Playground.CSharp8.CompilerOnly/UsingDeclarationExample.cs)                   | ✔️             | ️❌                | ❌                |
-| [Null-coalescing assignment](./Polysharp.Playground.CSharp8.CompilerOnly/NullCoalescingAssignmentExample.cs)   | ✔️             | ️❌                | ❌                |
-| [Read-only members](./Polysharp.Playground.CSharp8.CompilerOnly/ReadonlyMembersExample.cs)                     | ✔️             | ❌                 | ❌                |
-| [Indices and Range](./Polysharp.Playground.CSharp8.RequirePolyfills/IndicesAndRangesExample.cs)                | ❌              | ✔️                | ❌                |
-| [Asynchronous streams](./Polysharp.Playground.CSharp8.RequireRuntime/AsyncStreamExample.cs)                    | ❌              | ❌                 | ✔️               |
-| [Default interface methods](./Polysharp.Playground.CSharp8.RequireRuntime/DefaultInterfaceMethodsExample.cs)   | ❌              | ❌                 | ✔️               |
+|:---------------------------------------------------------------------------------------------------------------|:--------------:|:-----------------:|:----------------:|
+| [Non-nullable references](./Polysharp.Playground.CSharp8.CompilerOnly/NullableExample.cs)                      |       ✔️       |         ❌         |         ❌        |
+| [Switch Expressions](./Polysharp.Playground.CSharp8.CompilerOnly/SwitchExpressionsExample.cs)                  |       ✔️       |         ❌         |         ❌        |
+| [Property pattern matching](./Polysharp.Playground.CSharp8.CompilerOnly/PropertyPatternMatchingExample.cs)     |       ✔️       |         ❌         |         ❌        |
+| [Positional pattern matching](./Polysharp.Playground.CSharp8.CompilerOnly/PositionalPatternMatchingExample.cs) |       ✔️       |         ❌         |         ❌        |
+| [Static local functions](./Polysharp.Playground.CSharp8.CompilerOnly/StaticLocalFunctionExample.cs)            |       ✔️       |         ❌         |         ❌        |
+| [Using declarations](./Polysharp.Playground.CSharp8.CompilerOnly/UsingDeclarationExample.cs)                   |       ✔️       |         ❌         |         ❌        |
+| [Null-coalescing assignment](./Polysharp.Playground.CSharp8.CompilerOnly/NullCoalescingAssignmentExample.cs)   |       ✔️       |         ❌         |         ❌        |
+| [Read-only members](./Polysharp.Playground.CSharp8.CompilerOnly/ReadonlyMembersExample.cs)                     |       ✔️       |         ❌         |         ❌        |
+| [Indices and Range](./Polysharp.Playground.CSharp8.RequirePolyfills/IndicesAndRangesExample.cs)                |       ❌        |         ✔️         |         ❌        |
+| [Asynchronous streams](./Polysharp.Playground.CSharp8.RequireRuntime/AsyncStreamExample.cs)                    |       ❌        |         ❌         |         ✔️       |
+| [Default interface methods](./Polysharp.Playground.CSharp8.RequireRuntime/DefaultInterfaceMethodsExample.cs)   |       ❌        |         ❌         |         ✔️       |
 
 - - - 
-- - - 
+
 
 ## C# 9.0 Features
-
 | Feature                                                                                                                                             | Out of the Box | Require polyfills | Requires Runtime |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------|:---------------|:------------------|:-----------------|
-| [Records](./Polysharp.Playground.CSharp9.CompilerOnly/RecordsExample.cs)                                                                            | ✔️             | ️❌                | ❌                |
-| [Target-typed new expressions](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedNewExpressionExample.cs)                                      | ✔️             | ❌                 | ❌                |
-| [Static Anonymous Functions](./Polysharp.Playground.CSharp9.CompilerOnly/StaticAnonymousFunctionsExample.cs)                                        | ✔️             | ❌                 | ❌                |
-| [Pattern matching enhancements](./Polysharp.Playground.CSharp9.CompilerOnly/PatternMatchingEnhancements.cs)                                         | ✔️             | ❌                 | ❌                |
-| [Lambda discard parameters](./Polysharp.Playground.CSharp9.CompilerOnly/LambdaDiscardParametersExample.cs)                                          | ✔️             | ❌                 | ❌                |
-| [Target-typed conditional expressions](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedConditionalExpressionsExample.cs)                     | ✔️             | ❌                 | ❌                |
-| [Target-typed new](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedNewExpressionExample.cs)                                                  | ✔️             | ❌                 | ❌                |
-| [ExtensionGetEnumeratorSupportForeachLoopsExample](./Polysharp.Playground.CSharp9.CompilerOnly/ExtensionGetEnumeratorSupportForeachLoopsExample.cs) | ✔️             | ❌                 | ❌                |
-| [Native integers](./Polysharp.Playground.CSharp9.CompilerOnly/PointersFeatures/NativeIntegersExample.cs)                                            | ✔️             | ❌                 | ❌                |
-| [Module initializers](./Polysharp.Playground.CSharp9.RequirePolyfills/ModuleInitializerExample.cs)                                                  | ✔️             | ❌                 | ❌                |
-| [Attributes on local functions](./Polysharp.Playground.CSharp9.CompilerOnly/AttributeOnLocalFunctionsExample.cs)                                    | ✔️             | ❌                 | ❌                |
-| [Function pointers](./Polysharp.Playground.CSharp9.CompilerOnly/PointersFeatures/FunctionPointerExample.cs)                                         | ✔️             | ❌                 | ❌                |
-| [Attributes on parameters](./Polysharp.Playground.CSharp8.CompilerOnly/AttributesOnParametersExample.cs)                                            | ✔️             | ❌                 | ❌                |
-| [Positional properties](./Polysharp.Playground.CSharp9.RequirePolyfills/PositionalPropertiesExample.cs)                                             | ❌              | ✔️                | ❌                |
-| [Init-only properties](./Polysharp.Playground.CSharp9.RequirePolyfills/InitOnlySettersExample.cs)                                                   | ❌              | ✔️                | ❌                |
-| [CallerArgumentExpression](./Polysharp.Playground.CSharp9.RequirePolyfills/CallerArgumentExpressionExample.cs)                                      | ❌              | ✔️                | ❌                |
-| [Suppress emitting locals init](./Polysharp.Playground.CSharp9.RequirePolyfills/SuppressEmittingLocalInitExample.cs)                                | ❌              | ✔️                | ❌                |
-| [Covariant return types](./Polysharp.Playground.CSharp9.RequireRuntime/CovariantReturnTypesExample.cs)                                              | ❌              | ❌                 | ✔️               |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------:|:-----------------:|:----------------:|
+| [Records](./Polysharp.Playground.CSharp9.CompilerOnly/RecordsExample.cs)                                                                            |       ✔️       |         ❌         |         ❌        |
+| [Target-typed new expressions](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedNewExpressionExample.cs)                                      |       ✔️       |         ❌         |         ❌        |
+| [Static Anonymous Functions](./Polysharp.Playground.CSharp9.CompilerOnly/StaticAnonymousFunctionsExample.cs)                                        |       ✔️       |         ❌         |         ❌        |
+| [Pattern matching enhancements](./Polysharp.Playground.CSharp9.CompilerOnly/PatternMatchingEnhancements.cs)                                         |       ✔️       |         ❌         |         ❌        |
+| [Lambda discard parameters](./Polysharp.Playground.CSharp9.CompilerOnly/LambdaDiscardParametersExample.cs)                                          |       ✔️       |         ❌         |         ❌        |
+| [Target-typed conditional expressions](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedConditionalExpressionsExample.cs)                     |       ✔️       |         ❌         |         ❌        |
+| [Target-typed new](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedNewExpressionExample.cs)                                                  |       ✔️       |         ❌         |         ❌        |
+| [ExtensionGetEnumeratorSupportForeachLoopsExample](./Polysharp.Playground.CSharp9.CompilerOnly/ExtensionGetEnumeratorSupportForeachLoopsExample.cs) |       ✔️       |         ❌         |         ❌        |
+| [Native integers](./Polysharp.Playground.CSharp9.CompilerOnly/PointersFeatures/NativeIntegersExample.cs)                                            |       ✔️       |         ❌         |         ❌        |
+| [Module initializers](./Polysharp.Playground.CSharp9.RequirePolyfills/ModuleInitializerExample.cs)                                                  |       ✔️       |         ❌         |         ❌        |
+| [Attributes on local functions](./Polysharp.Playground.CSharp9.CompilerOnly/AttributeOnLocalFunctionsExample.cs)                                    |       ✔️       |         ❌         |         ❌        |
+| [Function pointers](./Polysharp.Playground.CSharp9.CompilerOnly/PointersFeatures/FunctionPointerExample.cs)                                         |       ✔️       |         ❌         |         ❌        |
+| [Attributes on parameters](./Polysharp.Playground.CSharp8.CompilerOnly/AttributesOnParametersExample.cs)                                            |       ✔️       |         ❌         |         ❌        |
+| [Positional properties](./Polysharp.Playground.CSharp9.RequirePolyfills/PositionalPropertiesExample.cs)                                             |       ❌        |         ✔️         |         ❌        |
+| [Init-only properties](./Polysharp.Playground.CSharp9.RequirePolyfills/InitOnlySettersExample.cs)                                                   |       ❌        |         ✔️         |         ❌        |
+| [CallerArgumentExpression](./Polysharp.Playground.CSharp9.RequirePolyfills/CallerArgumentExpressionExample.cs)                                      |       ❌        |         ✔️         |         ❌        |
+| [Suppress emitting locals init](./Polysharp.Playground.CSharp9.RequirePolyfills/SuppressEmittingLocalInitExample.cs)                                |       ❌        |         ✔️         |         ❌        |
+| [Covariant return types](./Polysharp.Playground.CSharp9.RequireRuntime/CovariantReturnTypesExample.cs)                                              |       ❌        |         ❌         |         ✔️       |
 
+- - - 
 ## C# 10.0 Features
 
 | Feature                                                                                                                       | Out of the Box | Require polyfills | Requires Runtime |
@@ -60,6 +59,8 @@ box, require additional polyfills, or require a runtime.
 | [Mixed interpolated verbatim strings](./Polysharp.Playground.CSharp10.CompilerOnly/MixedInterpolatedVerbatimStringExample.cs) |       ✔️       |         ❌         |        ❌         |
 | [Async methods improvements]                                                                                                  |      ✔️?       |         ❌         |        ❌         |
 
+- - - 
+
 ## C# 11.0 Features
 
 | Feature                                                                                                   | Out of the Box | Require polyfills | Requires Runtime |
@@ -74,6 +75,8 @@ box, require additional polyfills, or require a runtime.
 | [Required members](./Polysharp.Playground.CSharp11.RequirePolyfills/RequiredMembersExample.cs)            |        ❌      |         ✔️         |        ❌         |
 | [List patterns](./Polysharp.Playground.CSharp11.RequirePolyfills/ListPatternsExample.cs)                  |        ❌      |         ✔️         |        ❌         |
 | [Static abstract members](./Polysharp.Playground.CSharp11.RequireRuntime/StaticAbstractMembersExample.cs) |       ❌       |         ❌         |        ✔️         |
+
+- - -
 
 ## C# 12.0 Features
 
