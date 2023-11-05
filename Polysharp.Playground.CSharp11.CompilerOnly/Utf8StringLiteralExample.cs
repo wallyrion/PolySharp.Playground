@@ -1,4 +1,7 @@
 ﻿using System;
+// ReSharper disable UnusedVariable
+// ReSharper disable UnusedMember.Global
+// ReSharper disable UnusedType.Global
 
 namespace Polysharp.Playground.CSharp11.CompilerOnly
 {

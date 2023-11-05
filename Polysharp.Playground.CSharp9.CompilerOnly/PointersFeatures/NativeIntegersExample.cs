@@ -2,10 +2,13 @@
 {
 	public class NativeIntegersExample
 	{
-		class Example
+		private readonly nint _i = 5;
+
+		public nint GetI()
 		{
-			private nint _i = 5;
-			private nuint _u = 6u;
+			return _i;
 		}
+		
+		public nuint GetU { get; } = 6u;
 	}
 }

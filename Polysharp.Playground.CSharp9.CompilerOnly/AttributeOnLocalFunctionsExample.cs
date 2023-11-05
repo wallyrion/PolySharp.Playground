@@ -13,11 +13,6 @@ namespace Polysharp.Playground.CSharp9.CompilerOnly
 				// Some logic here...
 			}
 
-			void NewLocalFunction()
-			{
-				// New logic...
-			}
-
 			DeprecatedLocalFunction(); // This will produce a warning
 		}
 	}
