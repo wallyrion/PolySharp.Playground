@@ -5,6 +5,13 @@
         <PackageReference Include="xunit"/>
     </ItemGroup>
 
+    <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFramework' ">
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" />
+        <PackageReference Include="Microsoft.VisualStudio.TestPlatform" />
+        <PackageReference Include="Microsoft.TestPlatform.ObjectModel" />
+    </ItemGroup>
+
+
     <PropertyGroup>
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
         <IsPackable>false</IsPackable>
