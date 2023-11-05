@@ -14,6 +14,6 @@ namespace Polysharp.Playground.CSharp9.CompilerOnly
 	
 	public class WeatherStation
 	{
-		public string Location { get; set; }
+		public string Location { get; set; } = null!;
 	}
 }

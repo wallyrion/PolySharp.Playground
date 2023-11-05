@@ -21,22 +21,22 @@ namespace Polysharp.Playground.CSharp9.CompilerOnly
 		
 		public class Person
 		{
-			public string Name { get; set; }
+			public string Name { get; set; } = null!;
 			public int Age { get; set; }
 		}
 		
 		public class Persons
 		{
-			private List<Person> people = new();
+			private readonly List<Person> _people = new();
 
 			public void AddPerson(Person person)
 			{
-				people.Add(person);
+				_people.Add(person);
 			}
 
 			public List<Person> GetPeople()
 			{
-				return people;
+				return _people;
 			}
 		}
 		

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Polysharp.Playground.CSharp8.RequireRuntime
+namespace Polysharp.Playground.CSharp8.CompilerOnly
 {
 	public class PropertyPatternMatchingExample
 	{
@@ -41,13 +41,13 @@ namespace Polysharp.Playground.CSharp8.RequireRuntime
 		{
 			public PaymentType Type { get; set; }
 			public int Amount { get; set; }
-			public Card Card { get; set; }
+			public Card Card { get; set; } = null!;
 		}
 
 		private class Card
 		{
-			public string Number { get; set; }
-			public string Location { get; set; }
+			public string Number { get; set; } = null!;
+			public string Location { get; set; } = null!;
 		}
 
 		private enum PaymentType

@@ -15,7 +15,7 @@ namespace Polysharp.Playground.CSharp11.CompilerOnly
 
 			var result = JsonConvert.DeserializeObject<RawStringLiteralsExample.Person>(json);
 
-			result.FirstName.Should().Be("John");
+			result!.FirstName.Should().Be("John");
 			result.LastName.Should().Be("Doe");
 		}
 

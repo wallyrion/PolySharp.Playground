@@ -1,4 +1,4 @@
-﻿namespace Polysharp.Playground.CSharp12.RequirePolyfills;
+﻿namespace Polysharp.Playground.CSharp11.RequirePolyfills;
 
 public class RequiredMembersExample
 {
