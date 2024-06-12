@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
@@ -5,6 +6,22 @@ namespace Polysharp.Playground.CSharp8.CompilerOnly
 {
 	public class Tests
 	{
+		[Fact]
+		public async Task AsyncEnumerableExampleTest()
+		{
+			// Arrange
+			const int numberOfItems = 10;
+			var target = new AsyncStreamExample();
+			
+			// Act
+			var stream = target.GenerateSequence(numberOfItems);
+			
+			// Assert
+			var list = await target.ConsumeEnumerable(stream);
+			list.Should().HaveCount(numberOfItems);
+		}
+		
+		
 		[Fact]
 		public void TargetTypedExample()
 		{

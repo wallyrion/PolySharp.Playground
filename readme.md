@@ -15,8 +15,8 @@ box, require additional polyfills, or require a runtime.
 | [Using declarations](./Polysharp.Playground.CSharp8.CompilerOnly/UsingDeclarationExample.cs)                   |       ✔️       |         ❌         |        ❌        |
 | [Null-coalescing assignment](./Polysharp.Playground.CSharp8.CompilerOnly/NullCoalescingAssignmentExample.cs)   |       ✔️       |         ❌         |        ❌        |
 | [Read-only members](./Polysharp.Playground.CSharp8.CompilerOnly/ReadonlyMembersExample.cs)                     |       ✔️       |         ❌         |        ❌        |
+| [Asynchronous streams](./Polysharp.Playground.CSharp8.CompilerOnly/AsyncStreamExample.cs)                    |       ✔️       |         ❌         |       ❌         |
 | [Indices and Range](./Polysharp.Playground.CSharp8.RequirePolyfills/IndicesAndRangesExample.cs)                |       ❌        |        ✔️         |        ❌        |
-| [Asynchronous streams](./Polysharp.Playground.CSharp8.RequireRuntime/AsyncStreamExample.cs)                    |       ❌        |         ❌         |       ✔️        |
 | [Default interface methods](./Polysharp.Playground.CSharp8.RequireRuntime/DefaultInterfaceMethodsExample.cs)   |       ❌        |         ❌         |       ✔️        |
 
 - - - 
