@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using FluentAssertions;
+using Xunit;
 
 namespace Polysharp.Playground.CSharp13.CompilerOnly.ParamsCollection
 {
@@ -44,33 +45,34 @@ namespace Polysharp.Playground.CSharp13.CompilerOnly.ParamsCollection
         public void TestReadOnlySpan()
         {
             // Using ReadOnlySpan to efficiently process a block of text data
-            string result1 = ParamsCollectionReadonlySpan.Concat("Efficient", "Memory", "Usage", "With", "Span");
-            Assert.Equal("Efficient Memory Usage With Span", result1);
+            var result1 = ParamsCollectionReadonlySpan.Concat("Efficient", "Memory", "Usage", "With", "Span");
+            result1.Should().Be("Efficient Memory Usage With Span");
 
-            string result2 = ParamsCollectionReadonlySpan.Concat(10, 20, 30, 40, 50);
-            Assert.Equal("10 20 30 40 50", result2);
+            var result2 = ParamsCollectionReadonlySpan.Concat(10, 20, 30, 40, 50);
+            result2.Should().Be("10 20 30 40 50");
         }
 
         [Fact]
         public void TestIEnumerable()
         {
-            // IEnumerable usage allows flexible data sources, such as query results.
-            string result1 = ParamsCollectionIEnumerable.Concat("Hello", "from", "IEnumerable");
-            Assert.Equal("Hello from IEnumerable", result1);
+            // IEnumerable usage allows flexible data sources, such as query results
+            var result1 = ParamsCollectionIEnumerable.Concat("Hello", "from", "IEnumerable");
+            result1.Should().Be("Hello from IEnumerable");
 
-            string result2 = ParamsCollectionIEnumerable.Concat(Enumerable.Range(1, 5)); // Outputs 1 to 5
-            Assert.Equal("1 2 3 4 5", result2);
+            var result2 = ParamsCollectionIEnumerable.Concat(Enumerable.Range(1, 5));
+            result2.Should().Be("1 2 3 4 5");
         }
 
         [Fact]
         public void TestList()
         {
             // Demonstrating List usage with sorting
-            string result1 = ParamsCollectionList.Concat(new List<string> { "Zebra", "Apple", "Monkey", "Bear" });
-            Assert.Equal("Apple Bear Monkey Zebra", result1); // Sorted alphabetically
+            var result1 = ParamsCollectionList.Concat(new List<string> { "Zebra", "Apple", "Monkey", "Bear" });
+            result1.Should().Be("Apple Bear Monkey Zebra");
 
-            string result2 = ParamsCollectionList.Concat(new List<int> { 42, 5, 17, 23, 8 });
-            Assert.Equal("5 8 17 23 42", result2); // Sorted numerically
+            var result2 = ParamsCollectionList.Concat(new List<int> { 42, 5, 17, 23, 8 });
+            result2.Should().Be("5 8 17 23 42");
         }
     }
+
 }
