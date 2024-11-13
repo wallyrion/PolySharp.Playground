@@ -48,6 +48,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polysharp.Playground.CSharp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polysharp.Playground.CSharp11.RequireRuntime", "Polysharp.Playground.CSharp11.RequireRuntime\Polysharp.Playground.CSharp11.RequireRuntime.csproj", "{997D5CF4-651E-489D-8264-85D15C44DB4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp13", "csharp13", "{F3C22035-C160-4F92-8022-01CB3412D935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polysharp.Playground.CSharp13.CompilerOnly", "Polysharp.Playground.CSharp13.CompilerOnly\Polysharp.Playground.CSharp13.CompilerOnly.csproj", "{17B7B1B3-B199-4057-A079-22152E446104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polysharp.Playground.CSharp13.RequirePolyfills", "Polysharp.Playground.CSharp13.RequirePolyfills\Polysharp.Playground.CSharp13.RequirePolyfills.csproj", "{360B8E72-62A3-47D4-8B12-9A2968C1A4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polysharp.Playground.CSharp13.RequireRuntime", "Polysharp.Playground.CSharp13.RequireRuntime\Polysharp.Playground.CSharp13.RequireRuntime.csproj", "{B120A5AD-1D72-4787-B61D-3A02D67F5FA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +122,18 @@ Global
 		{997D5CF4-651E-489D-8264-85D15C44DB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997D5CF4-651E-489D-8264-85D15C44DB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997D5CF4-651E-489D-8264-85D15C44DB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B7B1B3-B199-4057-A079-22152E446104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B7B1B3-B199-4057-A079-22152E446104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B7B1B3-B199-4057-A079-22152E446104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B7B1B3-B199-4057-A079-22152E446104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360B8E72-62A3-47D4-8B12-9A2968C1A4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360B8E72-62A3-47D4-8B12-9A2968C1A4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360B8E72-62A3-47D4-8B12-9A2968C1A4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360B8E72-62A3-47D4-8B12-9A2968C1A4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B120A5AD-1D72-4787-B61D-3A02D67F5FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B120A5AD-1D72-4787-B61D-3A02D67F5FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B120A5AD-1D72-4787-B61D-3A02D67F5FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B120A5AD-1D72-4787-B61D-3A02D67F5FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BA4126EC-0C15-4187-9CB2-15BE61EAE217} = {93AD1C8D-8150-47D9-9F6B-B18024E27D5D}
@@ -131,5 +151,8 @@ Global
 		{5B725B53-6FEB-43B6-8BD4-4F5E609169DF} = {F47E8A4A-7077-46A2-A1B5-F58F543236BF}
 		{7C3F0666-79EB-433B-BF6C-774F9C4D2390} = {F47E8A4A-7077-46A2-A1B5-F58F543236BF}
 		{997D5CF4-651E-489D-8264-85D15C44DB4A} = {F47E8A4A-7077-46A2-A1B5-F58F543236BF}
+		{17B7B1B3-B199-4057-A079-22152E446104} = {F3C22035-C160-4F92-8022-01CB3412D935}
+		{360B8E72-62A3-47D4-8B12-9A2968C1A4F7} = {F3C22035-C160-4F92-8022-01CB3412D935}
+		{B120A5AD-1D72-4787-B61D-3A02D67F5FA6} = {F3C22035-C160-4F92-8022-01CB3412D935}
 	EndGlobalSection
 EndGlobal
