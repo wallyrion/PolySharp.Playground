@@ -105,3 +105,12 @@ box_**, **_require additional polyfills_**, or **_require a runtime_**.
 | [Optional Lambda expression parameters](./Polysharp.Playground.CSharp12.CompilerOnly/OptionalLambdaExpressionParametersExample.cs) |       ✔️       |         ❌         |        ❌        |
 | [Inline array](./Polysharp.Playground.CSharp12.RequireRuntime/InlineArraysExample.cs)                                              |       ❌        |         ❌         |       ✔️        |
 
+
+- - -
+
+## C# 13.0 Features
+
+| Feature                                                                           | Out of the Box | Require polyfills | Require Runtime |
+|:----------------------------------------------------------------------------------|:--------------:|:-----------------:|:---------------:|
+| [ParamsCollection](./Polysharp.Playground.CSharp13.CompilerOnly/ParamsCollection) |       ✔️       |         ❌         |        ❌        |
+| [New lock object](./Polysharp.Playground.CSharp13.CompilerOnly/ParamsCollection/readme.md) |       🏃‍♀️‍➡️       |         🏃‍♀️‍➡️         |        🏃‍♀️‍➡️        |
