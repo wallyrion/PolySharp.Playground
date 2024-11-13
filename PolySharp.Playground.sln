@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolySharp.Playground", "PolySharp.Playground\PolySharp.Playground.csproj", "{70827741-074E-4100-B0CE-A407EC12D638}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp10", "csharp10", "{93AD1C8D-8150-47D9-9F6B-B18024E27D5D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp11", "csharp11", "{F47E8A4A-7077-46A2-A1B5-F58F543236BF}"
@@ -56,10 +54,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70827741-074E-4100-B0CE-A407EC12D638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70827741-074E-4100-B0CE-A407EC12D638}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70827741-074E-4100-B0CE-A407EC12D638}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70827741-074E-4100-B0CE-A407EC12D638}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA4126EC-0C15-4187-9CB2-15BE61EAE217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA4126EC-0C15-4187-9CB2-15BE61EAE217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA4126EC-0C15-4187-9CB2-15BE61EAE217}.Release|Any CPU.ActiveCfg = Release|Any CPU

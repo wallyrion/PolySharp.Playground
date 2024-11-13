@@ -1,7 +1,18 @@
 # C# Features
 
-This table lists the features introduced in C# versions 8 - 12 and indicates whether they are available out of the
-box, require additional polyfills, or require a runtime.
+### TL;DR
+This repo highlights modern C# features compatible with .NET Framework projects for developers staying on .NET Framework.
+
+
+### Features list
+This table lists the features introduced in C# versions 8 - 13 and indicates whether they are **_available out of the
+box_**, **_require additional polyfills_**, or **_require a runtime_**.
+- **Out of the Box**. You can just set version of the c# manually in csproj for the feature;
+- **Require Additional polyfills**. Polyfills are needed, which can be easily added using the **[PolySharp](https://github.com/Sergio0694/PolySharp) library;**
+- **Require Runtime**.  This feature is integrated within both the Roslyn compiler and the runtime itself.
+
+
+>⚠️ SDK-style .csproj is required for the PolySharp to generate required polyfills. It can be upgraded quite easily using **[Upgrade Assistant](https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview)**
 
 ## C# 8.0 Features
 
