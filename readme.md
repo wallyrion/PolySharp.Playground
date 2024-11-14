@@ -14,6 +14,9 @@ box_**, **_require additional polyfills_**, or **_require a runtime_**.
 
 >⚠️ SDK-style .csproj is required for the PolySharp to generate required polyfills. It can be upgraded quite easily using **[Upgrade Assistant](https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview)**
 
+
+
+
 ## C# 8.0 Features
 
 | Feature                                                                                                        | Out of the Box | Require polyfills | Require Runtime |
@@ -43,7 +46,7 @@ box_**, **_require additional polyfills_**, or **_require a runtime_**.
 | [Lambda discard parameters](./Polysharp.Playground.CSharp9.CompilerOnly/LambdaDiscardParametersExample.cs)                                          |       ✔️       |         ❌         |        ❌        |
 | [Target-typed conditional expressions](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedConditionalExpressionsExample.cs)                     |       ✔️       |         ❌         |        ❌        |
 | [Target-typed new](./Polysharp.Playground.CSharp9.CompilerOnly/TargetTypedNewExpressionExample.cs)                                                  |       ✔️       |         ❌         |        ❌        |
-| [ExtensionGetEnumeratorSupportForeachLoopsExample](./Polysharp.Playground.CSharp9.CompilerOnly/ExtensionGetEnumeratorSupportForeachLoopsExample.cs) |       ✔️       |         ❌         |        ❌        |
+| [ExtensionGetEnumeratorSupportForeachLoops](./Polysharp.Playground.CSharp9.CompilerOnly/ExtensionGetEnumeratorSupportForeachLoopsExample.cs) |       ✔️       |         ❌         |        ❌        |
 | [Native integers](./Polysharp.Playground.CSharp9.CompilerOnly/PointersFeatures/NativeIntegersExample.cs)                                            |       ✔️       |         ❌         |        ❌        |
 | [Module initializers](./Polysharp.Playground.CSharp9.RequirePolyfills/ModuleInitializerExample.cs)                                                  |       ✔️       |         ❌         |        ❌        |
 | [Attributes on local functions](./Polysharp.Playground.CSharp9.CompilerOnly/AttributeOnLocalFunctionsExample.cs)                                    |       ✔️       |         ❌         |        ❌        |
@@ -95,10 +98,22 @@ box_**, **_require additional polyfills_**, or **_require a runtime_**.
 
 | Feature                                                                                                                            | Out of the Box | Require polyfills | Require Runtime |
 |:-----------------------------------------------------------------------------------------------------------------------------------|:--------------:|:-----------------:|:---------------:|
-| [CollectionExpressionExample](./Polysharp.Playground.CSharp12.CompilerOnly/CollectionExpressionExample.cs)                         |       ✔️       |         ❌         |        ❌        |
+| [Collection Expression](./Polysharp.Playground.CSharp12.CompilerOnly/CollectionExpressionExample.cs)                               |       ✔️       |         ❌         |        ❌        |
 | [Primary Constructors](./Polysharp.Playground.CSharp12.CompilerOnly/PrimaryConstructorsExample.cs)                                 |       ✔️       |         ❌         |        ❌        |
 | [ref readonly parameters](./Polysharp.Playground.CSharp12.CompilerOnly/RefReadonlyParameterExample.cs)                             |       ✔️       |         ❌         |        ❌        |
 | [Alias for any type](./Polysharp.Playground.CSharp12.CompilerOnly/AliasAnyTypeExample.cs)                                          |       ✔️       |         ❌         |        ❌        |
 | [Optional Lambda expression parameters](./Polysharp.Playground.CSharp12.CompilerOnly/OptionalLambdaExpressionParametersExample.cs) |       ✔️       |         ❌         |        ❌        |
 | [Inline array](./Polysharp.Playground.CSharp12.RequireRuntime/InlineArraysExample.cs)                                              |       ❌        |         ❌         |       ✔️        |
 
+
+- - -
+
+## C# 13.0 Features
+
+| Feature                                                                                     | Out of the Box | Require polyfills | Require Runtime |
+|:--------------------------------------------------------------------------------------------|:--------------:|:-----------------:|:---------------:|
+| [ParamsCollection](./Polysharp.Playground.CSharp13.CompilerOnly/ParamsCollection)           |       ✔️       |         ❌         |        ❌        |
+| [New escape sequence](./Polysharp.Playground.CSharp13.CompilerOnly/NewEscapeCharacter)      |       ✔️️       |         ❌        |        ❌        |
+| [Partial members](./Polysharp.Playground.CSharp13.CompilerOnly/CompilerOnly)       |       ✔️️       |         ❌         |        ❌        |
+| [New lock object](./Polysharp.Playground.CSharp13.RequireRuntime/NewLockObject)             |       ❌       |         ❌        |        ✔️        |
+| [Implicit index access](./Polysharp.Playground.CSharp13.RequireRuntime/ImplicitIndexAccess) |       ❌     |         ❌         |        ✔️️          |
