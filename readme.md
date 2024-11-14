@@ -110,7 +110,9 @@ box_**, **_require additional polyfills_**, or **_require a runtime_**.
 
 ## C# 13.0 Features
 
-| Feature                                                                           | Out of the Box | Require polyfills | Require Runtime |
-|:----------------------------------------------------------------------------------|:--------------:|:-----------------:|:---------------:|
-| [ParamsCollection](./Polysharp.Playground.CSharp13.CompilerOnly/ParamsCollection) |       ✔️       |         ❌         |        ❌        |
-| [New lock object](./Polysharp.Playground.CSharp13.CompilerOnly/ParamsCollection/readme.md) |       🏃‍♀️‍➡️       |         🏃‍♀️‍➡️         |        🏃‍♀️‍➡️        |
+| Feature                                                                                             | Out of the Box | Require polyfills | Require Runtime |
+|:----------------------------------------------------------------------------------------------------|:--------------:|:-----------------:|:---------------:|
+| [ParamsCollection](./Polysharp.Playground.CSharp13.CompilerOnly/ParamsCollection)                   |       ✔️       |         ❌         |        ❌        |
+| [New lock object](./Polysharp.Playground.CSharp13.RequireRuntime/NewLockObject)                     |       ❌       |         ❌        |        ✔️        |
+| [New escape sequence](./Polysharp.Playground.CSharp13.CompilerOnly/NewEscapeCharacter)              |       ✔️️       |         ❌        |        ❌        |
+| [Implicit index access](./Polysharp.Playground.CSharp13.RequireRuntime/ImplicitIndexAccess)    |       🏃‍♀️‍➡️       |         🏃‍♀️‍➡️         |        🏃‍♀️‍➡️        |
